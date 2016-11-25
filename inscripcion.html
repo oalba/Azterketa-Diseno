@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script   src="http://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row cabecera">
+                <div class="col-xs-2">
+                    <img src="img/logoBlanco.gif" class="img-responsive"></img>
+                </div>
+                <div class="col-xs-offset-8 col-xs-2">
+                    <img src="img/logoGV.png" class="img-responsive pull-right"></img>
+                </div>
+            </div><!-- row cabecera -->
+            
+            <div class="row">
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <a class="navbar-brand" href="#">Mutriku BHI</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling formacion proyectos mapa eventos inscripcion-->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+                        <li class="dropdown">
+                          <a href="formacion.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-file"></span> Formación <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">DBH</a></li>
+                            <li><a href="#">Bachiller</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Grado Medio</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Grado Superior</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="proyectos.html"><span class="glyphicon glyphicon-send"></span> Proyectos</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-road"></span> Mapa</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-tags"></span> Eventos</a></li>
+                        <li class="active"><a href="inscripcion.html"><span class="glyphicon glyphicon-pencil"></span> Inscripción <span class="sr-only">(current)</span></a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- container-fluid -->
+                </nav>
+            </div><!-- row NAVBAR -->
+            <!--<form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+</form>-->
+            <div class="row">
+                <div class="col-xs-offset-4 col-xs-4">
+                    <div class="row"><div class="col-xs-6"><h2>Nombre</h2></div><div class="col-xs-6"></div></div>
+                </div>
+                <div class="col-xs-offset-4 col-xs-4">
+                    <div class="row"><div class="col-xs-6"><h2>Correo</h2></div><div class="col-xs-6"><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"></div></div>
+                </div>
+                <div class="col-xs-offset-4 col-xs-4">
+                    <div class="row"><div class="col-xs-6"><h2>Asunto</h2></div><div class="col-xs-6"></div></div>
+                </div>
+                <div class="col-xs-offset-4 col-xs-4">
+                    <div class="row"><div class="col-xs-offset-6 col-xs-6"><button type="submit" class="btn btn-success">Enviar</button></div></div>
+                </div>
+            </div>
+
+            
+            
+            
+            
+            
+            
+            <div class="row">
+                <div class="col-xs-12 pie">
+                    © mutrikubhi <br>
+Telefonoa: 943603545 | Fax: 943604254 | 012132aa@hezkuntza.net idazkaritza@mutrikubhi.net 
+                </div>
+            </div>
+            
+            
+            
+        </div><!-- container-fluid -->
+    </body><!--  -->
+</html><!--  -->
