@@ -63,3 +63,21 @@ body {
 .jumbotron {
     background-color: #ccc;
 }
+
+.inputak {
+    width: 100% !important;
+    margin-top: 28px;
+}
+.btn {
+    margin-bottom: 20px;
+    margin-top: 10px !important;
+    height: 50px;
+}
+
+.textoder {
+    text-align: right;
+}
+
+.cmutriku {
+    margin: 60px 10px 0px;
+}
